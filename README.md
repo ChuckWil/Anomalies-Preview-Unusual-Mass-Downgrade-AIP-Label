@@ -44,7 +44,7 @@ When complete your will have a:
 
 Script execution and data ingestion simulates what would happen in the event an anomaly rule is triggered.
 
-![](to%20publish%20in%20Github/images/AIPRule.png")
+<img src= "/images/AIPRule.PNG" >
   
 # Details on ML and Anomalies are outline here: 
 https://techcommunity.microsoft.com/t5/azure-sentinel/democratize-machine-learning-with-customizable-ml-anomalies/ba-p/2346338
