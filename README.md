@@ -14,7 +14,7 @@ Ensure you have recorded your WorkspaceID, LogAnalytics WorkspaceId and TenantId
 # Download the .CSV and PowerShell script. 
 Edit the PS with your information as in the following script snippet:
 
-*snip
+*script snip
 
 $LogAnalyticsWorkspaceId = "Your WorkspaceIDxxxxxxxxx"
 
@@ -22,7 +22,7 @@ $LogAnalyticsPrimaryKey = "Your LogAnalyticsPrimary Keyxxxxxxxxxxxx=="
 
 $TenantId = "TenantIDxxxxxxxxxx" 
 
-<end snip>
+end snip
 
 Upload the files to our your Azure storage via the Cloudshell or other methods. 
 Note:  Ensure the PS and CSV files are in the same directory.  Additionally,  line 83 of the script identifies the csv data file by name, verify this name matches the actual file or the script will error. 
