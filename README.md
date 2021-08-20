@@ -34,7 +34,7 @@ The script will ingest the demo data into your Sentinel instance.  You should se
 Inside the log you will have 62 events marked:        
 # "(Preview) Unusual mass downgrade AIP label". 
 
-A prescheduled backend job will move events matchings rules, in this case     the "(Preview) Unusual mass downgrade AIP label") to the Anomalies table.  Depending on when you run the script it may intially take 12 hoursto record in the anomalies table as the job runs once daily by region.
+A prescheduled backend job will move logged events matchings anomaly rules, in this case the "(Preview) Unusual mass downgrade AIP label") to the Anomalies table.  Depending on when you run the script it may intially take 12 hoursto record in the anomalies table as the job runs once daily by region.
 
 When complete your will have a:
 
@@ -44,7 +44,7 @@ When complete your will have a:
 
 Script execution and data ingestion simulates what would happen in the event an anomaly rule is triggered.
 
-![](/images/AIPRule.png")
+![](to%20publish%20in%20Github/images/AIPRule.png")
   
 # Details on ML and Anomalies are outline here: 
 https://techcommunity.microsoft.com/t5/azure-sentinel/democratize-machine-learning-with-customizable-ml-anomalies/ba-p/2346338
