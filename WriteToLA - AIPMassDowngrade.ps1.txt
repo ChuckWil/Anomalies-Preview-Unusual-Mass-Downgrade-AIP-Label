@@ -1,4 +1,3 @@
-
 $LogAnalyticsWorkspaceId = "#Insert your WorkspaceID"
 
 $LogAnalyticsPrimaryKey = "#Insert your LogAnalyticsPrimaryKey=="
