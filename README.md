@@ -49,7 +49,7 @@ Script execution and data ingestion simulates what would happen in the event the
 https://techcommunity.microsoft.com/t5/azure-sentinel/democratize-machine-learning-with-customizable-ml-anomalies/ba-p/2346338
 
 
-#Work with anomaly detection analytics rules in Azure Sentinel
+# Work with anomaly detection analytics rules in Azure Sentinel
 https://docs.microsoft.com/en-us/azure/sentinel/work-with-anomaly-rules
 
 
