@@ -7,13 +7,18 @@ The package includes:
 1 - PS script with logic to ingest the simulated anomaly data 
 2 - A csv file with the corresponding anomoly preview events
 
-#Anomalies preview Configuration Steps
+# Anomalies preview Configuration Steps
 
 Ensure you have recorded your WorkspaceID, LogAnalytics WorkspaceId and TenantId.   
 
+<<<<<<< HEAD
 #Download the .CSV and PowerShell script (text file). Edit the PS with your information as in the following script snippet and save as .PS:
+=======
+# Download the .CSV and PowerShell script. 
+Edit the PS with your information as in the following script snippet:
+>>>>>>> 1e2f6b50dfbe6feb1e300233a0edc1f712aa1d87
 
-<script snip>
+*script snip
 
 $LogAnalyticsWorkspaceId = "Your WorkspaceIDxxxxxxxxx"
 
@@ -21,19 +26,23 @@ $LogAnalyticsPrimaryKey = "Your LogAnalyticsPrimary Keyxxxxxxxxxxxx=="
 
 $TenantId = "TenantIDxxxxxxxxxx" 
 
-<end snip>
+end snip
 
 Upload the files to our your Azure storage via the Cloudshell or other methods. 
 Note:  Ensure the PS and CSV files are in the same directory.  Additionally,  line 83 of the script identifies the csv data file by name, verify this name matches the actual file or the script will error. 
 
-#Execute the script.
+# Execute the script.
 
 The script will ingest the demo data into your Sentinel instance.  You should see a new custom log named:  "InformationProtectionLogs_CL" as defined in the script.  
 
 Inside the log you will have 62 events marked:        
-#"(Preview) Unusual mass downgrade AIP label". 
+# "(Preview) Unusual mass downgrade AIP label". 
 
+<<<<<<< HEAD
 A prescheduled backend job will move events matchings the rule,           "(Preview) Unusual mass downgrade AIP label") to the Anomalies table.  Depending on when you run the script it may intially take 12 hours to record in the anomalies table as the job is scheduled to run once daily by region.
+=======
+A prescheduled backend job will move logged events matchings anomaly rules, in this case the "(Preview) Unusual mass downgrade AIP label") to the Anomalies table.  Depending on when you run the script it may intially take 12 hoursto record in the anomalies table as the job runs once daily by region.
+>>>>>>> 1e2f6b50dfbe6feb1e300233a0edc1f712aa1d87
 
 When complete your will have a:
 
@@ -43,9 +52,9 @@ When complete your will have a:
 
 Script execution and data ingestion simulates what would happen in the event the anomaly rule is triggered.
 
-![](images/AIPRule.png)
-
-#Details on ML and Anomalies are outline here: 
+<img src= "/images/AIPRule.PNG" >
+  
+# Details on ML and Anomalies are outline here: 
 https://techcommunity.microsoft.com/t5/azure-sentinel/democratize-machine-learning-with-customizable-ml-anomalies/ba-p/2346338
 
 
