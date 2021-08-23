@@ -11,12 +11,7 @@ The package includes:
 
 Ensure you have recorded your WorkspaceID, LogAnalytics WorkspaceId and TenantId.   
 
-<<<<<<< HEAD
 #Download the .CSV and PowerShell script (text file). Edit the PS with your information as in the following script snippet and save as .PS:
-=======
-# Download the .CSV and PowerShell script. 
-Edit the PS with your information as in the following script snippet:
->>>>>>> 1e2f6b50dfbe6feb1e300233a0edc1f712aa1d87
 
 *script snip
 
@@ -38,11 +33,7 @@ The script will ingest the demo data into your Sentinel instance.  You should se
 Inside the log you will have 62 events marked:        
 # "(Preview) Unusual mass downgrade AIP label". 
 
-<<<<<<< HEAD
-A prescheduled backend job will move events matchings the rule,           "(Preview) Unusual mass downgrade AIP label") to the Anomalies table.  Depending on when you run the script it may intially take 12 hours to record in the anomalies table as the job is scheduled to run once daily by region.
-=======
-A prescheduled backend job will move logged events matchings anomaly rules, in this case the "(Preview) Unusual mass downgrade AIP label") to the Anomalies table.  Depending on when you run the script it may intially take 12 hoursto record in the anomalies table as the job runs once daily by region.
->>>>>>> 1e2f6b50dfbe6feb1e300233a0edc1f712aa1d87
+A prescheduled backend job will move events matchings the rule,                  "(Preview) Unusual mass downgrade AIP label") to the Anomalies table.  Depending on when you run the script it may intially take 12 hours to record in the anomalies table as the job is scheduled to run once daily by region.
 
 When complete your will have a:
 
