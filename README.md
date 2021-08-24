@@ -7,7 +7,7 @@ The package includes:
 1 - PS script with logic to ingest the simulated anomaly data 
 2 - A csv file with the corresponding anomoly preview events
 
-# Anomalies preview Configuration Steps
+# Anomalies Preview Configuration Steps
 
 Ensure you have recorded your WorkspaceID, LogAnalytics WorkspaceId and TenantId.   
 
@@ -45,7 +45,7 @@ Script execution and data ingestion simulates what would happen in the event the
 
 <img src= "/images/AIPRule.PNG" >
   
-# Details on ML and Anomalies are outline here: 
+# Details on ML and Anomalies: 
 https://techcommunity.microsoft.com/t5/azure-sentinel/democratize-machine-learning-with-customizable-ml-anomalies/ba-p/2346338
 
 
