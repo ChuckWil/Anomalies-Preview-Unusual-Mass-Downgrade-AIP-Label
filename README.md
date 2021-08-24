@@ -1,4 +1,4 @@
-The anomaly simulation package is provided by the SOC-ML Anomalies team to enable demo results for a specific anomaly rule named: 
+The anomaly simulation package is provided by the Azure Sentinel Customizable Anomalies team to enable demo results for a specific anomaly rule named: 
 "(Preview) Unusual mass downgrade AIP label" in your Azure Sentinel instance.
 
 This will not impact production workloads and is designed to demonstrate results of positive indicators for the "(Preview) Unusual mass downgrade AIP label" anomaly rule.
